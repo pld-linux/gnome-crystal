@@ -1,0 +1,15 @@
+diff -urN aa/gnome-crystal-0.5.4/gcrystal.schemas.in gnome-crystal-0.5.4/gcrystal.schemas.in
+--- aa/gnome-crystal-0.5.4/gcrystal.schemas.in	2003-06-09 17:40:23.000000000 +0200
++++ gnome-crystal-0.5.4/gcrystal.schemas.in	2004-02-21 00:25:54.930523664 +0100
+@@ -23,11 +23,6 @@
+         <short>Printing resolution</short>
+ 		<long>Printing resolution if not automatically detected.</long>
+       </locale>
+-       <locale name="fr">
+-        <short>Résolution de l'impression</short>
+-		<long>Résoluton de l'impression dans le cas où celle-ci n'est pas
+-		détectée automatiquement.</long>
+-      </locale>
+     </schema>
+ 
+ 	<schema>
