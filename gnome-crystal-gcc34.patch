@@ -1,0 +1,21 @@
+diff -urN aa/gnome-crystal-0.6.1/src/view.cc gnome-crystal-0.6.1/src/view.cc
+--- aa/gnome-crystal-0.6.1/src/view.cc	2004-01-28 18:19:09.000000000 +0100
++++ gnome-crystal-0.6.1/src/view.cc	2004-11-19 23:42:18.482675944 +0100
+@@ -250,7 +250,7 @@
+ 							GL_UNSIGNED_BYTE, tmp);
+ 		}
+ 		else throw (int) 6;
+-		lines = new (unsigned char*)[m_pWidget->allocation.height];
++		lines = new unsigned char*[m_pWidget->allocation.height];
+ 		if (!lines) throw (int) 5;
+ 		for (int i = 0, j = m_pWidget->allocation.height - 1; j >= 0; i++, j--)
+ 		{
+@@ -327,7 +327,7 @@
+ 							GL_UNSIGNED_BYTE, tmp);
+ 		}
+ 		else throw (int) 4;
+-		lines = new (unsigned char*)[m_pWidget->allocation.height];
++		lines = new unsigned char*[m_pWidget->allocation.height];
+ 		if (!lines) throw (int) 3;
+ 		for (int i = 0, j = m_pWidget->allocation.height - 1; j >= 0; i++, j--)
+ 		{
