@@ -10,4 +10,4 @@ diff -urN aa/gnome-crystal-0.5.4/gcrystal.desktop.in.in gnome-crystal-0.5.4/gcry
  Type=Application
  DocPath=gcrystal/gcrystal.xml
 -Categories=Application;Utility;ChemistryEditor
-+Categories=Application;Education;Science;Chemistry;
++Categories=GTK;GNOME;Education;Science;Chemistry;
