@@ -1,16 +1,16 @@
 Summary:	Visualizer for crystal structures
 Summary(pl):	Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u
 Name:		gnome-crystal
-Version:	0.5.4
-Release:	2
+Version:	0.6.0
+Release:	1
 License:	GPL
 Group:		X11/Applications/Science
 Source0:	http://savannah.nongnu.org/download/gcrystal/%{name}-%{version}.tar.bz2
-# Source0-md5:	42992758ccf502688205642b0b8ccc14
+# Source0-md5:	7a5e81732d68fe9c7570d568fdd3d6c1
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-schemas.patch
 URL:		http://www.nongnu.org/gcrystal/
-BuildRequires:	gnome-chemistry-utils-devel >= 0.2.3
+BuildRequires:	gnome-chemistry-utils-devel >= 0.2.4
 BuildRequires:	libgnomeui-devel >= 2.2.0
 BuildRequires:	libgnomeprintui-devel >= 2.2.0
 BuildRequires:	libjpeg-devel
