@@ -9,6 +9,7 @@ Source0:	http://savannah.nongnu.org/download/gcrystal/%{name}-%{version}.tar.bz2
 # Source0-md5:	cbe0a65e0c04ab8c18f13455a4dbe370
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-schemas.patch
+Patch2:		%{name}-gcc34.patch
 URL:		http://www.nongnu.org/gcrystal/
 BuildRequires:	automake
 BuildRequires:	gnome-chemistry-utils-devel >= 0.2.4
@@ -31,6 +32,7 @@ Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u.
 %setup -q
 %patch0 -p1
 %patch1 -p1
+%patch2 -p1
 
 %build
 cp -f /usr/share/automake/config.sub .
