@@ -10,6 +10,7 @@ Source0:	http://savannah.nongnu.org/download/gcrystal/%{name}-%{version}.tar.bz2
 Patch0:		%{name}-desktop.patch
 Patch1:		%{name}-schemas.patch
 URL:		http://www.nongnu.org/gcrystal/
+BuildRequires:	automake
 BuildRequires:	gnome-chemistry-utils-devel >= 0.2.4
 BuildRequires:	libgnomeui-devel >= 2.2.0
 BuildRequires:	libgnomeprintui-devel >= 2.2.0
