@@ -32,6 +32,7 @@ Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u.
 %patch1 -p1
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure \
 	--disable-schemas-install \
 	--with-png \
