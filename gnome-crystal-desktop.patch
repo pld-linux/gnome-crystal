@@ -1,0 +1,13 @@
+diff -urN aa/gnome-crystal-0.5.4/gcrystal.desktop.in.in gnome-crystal-0.5.4/gcrystal.desktop.in.in
+--- aa/gnome-crystal-0.5.4/gcrystal.desktop.in.in	2003-03-02 11:46:35.000000000 +0100
++++ gnome-crystal-0.5.4/gcrystal.desktop.in.in	2004-02-12 22:30:37.375406752 +0100
+@@ -3,7 +3,7 @@
+ _Comment=Edit and display crystalline structures
+ Exec=@BINDIR@/gcrystal
+ Icon=gnome-crystal.png
+-Terminal=0
++Terminal=false
+ Type=Application
+ DocPath=gcrystal/gcrystal.xml
+-Categories=Application;Utility;ChemistryEditor
++Categories=Application;Education;Science;Chemistry;
