@@ -2,7 +2,7 @@ Summary:	Visualizer for crystal structures
 Summary(pl):	Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u
 Name:		gnome-crystal
 Version:	0.6.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications/Science
 Source0:	http://savannah.nongnu.org/download/gcrystal/%{name}-%{version}.tar.bz2
