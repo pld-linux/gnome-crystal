@@ -1,7 +1,10 @@
-diff -urN aa/gnome-crystal-0.5.4/gcrystal.desktop.in.in gnome-crystal-0.5.4/gcrystal.desktop.in.in
---- aa/gnome-crystal-0.5.4/gcrystal.desktop.in.in	2003-03-02 11:46:35.000000000 +0100
-+++ gnome-crystal-0.5.4/gcrystal.desktop.in.in	2004-02-12 22:30:37.375406752 +0100
-@@ -3,7 +3,7 @@
+diff -urN gnome-crystal-0.6.1.orig/gcrystal.desktop.in.in gnome-crystal-0.6.1/gcrystal.desktop.in.in
+--- gnome-crystal-0.6.1.orig/gcrystal.desktop.in.in	2003-03-02 11:46:35.000000000 +0100
++++ gnome-crystal-0.6.1/gcrystal.desktop.in.in	2005-05-25 14:44:49.000000000 +0200
+@@ -1,9 +1,10 @@
+ [Desktop Entry]
++Encoding=UTF-8
+ _Name=Crystalline structures viewer
  _Comment=Edit and display crystalline structures
  Exec=@BINDIR@/gcrystal
  Icon=gnome-crystal.png
