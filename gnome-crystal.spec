@@ -1,5 +1,5 @@
 Summary:	Visualizer for crystal structures
-Summary(pl):	Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u
+Summary(pl.UTF-8):   NarzÄ™dzie sÅ‚uÅ¼Ä…ce do wizualizacji struktur krysztaÅ‚u
 Name:		gnome-crystal
 Version:	0.6.1
 Release:	5
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Visualizer for crystal structures.
 
-%description -l pl
-Narzêdzie s³u¿±ce do wizualizacji struktur kryszta³u.
+%description -l pl.UTF-8
+NarzÄ™dzie sÅ‚uÅ¼Ä…ce do wizualizacji struktur krysztaÅ‚u.
 
 %prep
 %setup -q
