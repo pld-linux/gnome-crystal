@@ -1,5 +1,5 @@
 Summary:	Visualizer for crystal structures
-Summary(pl.UTF-8):   Narzędzie służące do wizualizacji struktur kryształu
+Summary(pl.UTF-8):	Narzędzie służące do wizualizacji struktur kryształu
 Name:		gnome-crystal
 Version:	0.6.1
 Release:	5
